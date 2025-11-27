@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simple Binance Bot UI</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #0d1117;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 450px;
+        margin: 40px auto;
+        padding: 25px;
+        background: #161b22;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #000;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        margin: 10px 0 5px;
+        font-size: 14px;
+    }
+    select, input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: none;
+        margin-bottom: 10px;
+        background: #21262d;
+        color: white;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 6px;
+        background: #238636;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    button:hover {
+        background: #2ea043;
+    }
+    #resultBox {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 6px;
+        background: #0f172a;
+        font-size: 14px;
+        white-space: pre-wrap;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Simple Binance-Bot</h2>
+
+    <label>Order Type</label>
+    <select id="orderType">
+        <option value="MARKET">Market Order</option>
+        <option value="LIMIT">Limit Order</option>
+        <option value="STOP_MARKET">Stop Market</option>
+        <option value="TWAP">TWAP Strategy</option>
+        <option value="GRID">Grid Strategy</option>
+    </select>
+
+    <label>Symbol</label>
+    <input id="symbol" placeholder="BTCUSDT">
+
+    <label>Side</label>
+    <select id="side">
+        <option value="BUY">BUY</option>
+        <option value="SELL">SELL</option>
+    </select>
+
+    <label>Quantity</label>
+    <input id="qty" type="number" placeholder="0.001">
+
+    <label id="priceLabel">Price (Only for Limit)</label>
+    <input id="price" type="number" placeholder="Price">
+
+    <button onclick="submitOrder()">Submit Order</button>
+
+    <div id="resultBox"></div>
+</div>
+
+<script>
+function submitOrder() {
+    const order = {
+        type: document.getElementById("orderType").value,
+        symbol: document.getElementById("symbol").value,
+        side: document.getElementById("side").value,
+        qty: document.getElementById("qty").value,
+        price: document.getElementById("price").value
+    };
+
+    // --- Simulation only (Flask backend) ---
+     document.getElementById("resultBox").innerText =
+      "Order Submitted:\n" + JSON.stringify(order, null, 2);
+
+    // For Flask future enhancement :
+    // fetch("/api/order", {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/json" },
+    //     body: JSON.stringify(order)
+    // })
+    // .then(res => res.json())
+    // .then(data => {
+    //     document.getElementById("resultBox").innerText = JSON.stringify(data, null, 2);
+    // });
+}
+</script>
+
+</body>
+</html>

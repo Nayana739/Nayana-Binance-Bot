@@ -1,0 +1,73 @@
+2025-11-24T16:57:37 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-24T16:57:37 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-26T11:37:11 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-26T11:37:11 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:35:28 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:35:28 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "ETHUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.05, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:35:50 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:35:50 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "SELL", "type": "MARKET", "quantity": 0.002, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:36:14 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:36:14 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.01, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:37:23 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:37:23 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "SELL", "type": "LIMIT", "quantity": 0.001, "price": 62000.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:37:39 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:37:39 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.002, "price": 58000.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:37:55 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:37:55 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "ETHUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.05, "price": 2500.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:38:44 | ERROR | action=limit_order_failed details={"error": "Symbol should be a USDT pair, e.g., BTCUSDT"}
+2025-11-27T21:39:50 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:39:50 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "ETHUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.05, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:39:59 | ERROR | action=limit_order_failed details={"error": "Symbol should be a USDT pair, e.g., BTCUSDT"}
+2025-11-27T21:40:19 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:40:19 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "SELL", "type": "MARKET", "quantity": 0.002, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:40:30 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:40:30 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "ETHUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.05, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:40:40 | ERROR | action=limit_order_failed details={"error": "Symbol should be a USDT pair, e.g., BTCUSDT"}
+2025-11-27T21:40:56 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:40:56 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.01, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:41:11 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:41:11 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "SELL", "type": "MARKET", "quantity": 0.002, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:41:17 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:41:17 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "ETHUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.05, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:42:03 | ERROR | action=limit_order_failed details={"error": "Symbol should be a USDT pair, e.g., BTCUSDT"}
+2025-11-27T21:42:10 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:42:10 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "ETHUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.05, "price": 2500.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:42:21 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:42:21 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.002, "price": 58000.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:43:25 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:43:25 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "SELL", "type": "LIMIT", "quantity": 0.01, "price": 65000.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:48:12 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:48:12 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:48:12 | INFO | action=oco_entry details={"entry_resp": {"simulated": true, "payload": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "price": null, "stopPrice": null, "reduceOnly": false}, "timestamp": "2025-11-27T16:18:12Z"}}
+2025-11-27T21:48:12 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "SELL", "type": "LIMIT", "quantity": 0.001, "price": 65000.0, "stopPrice": null, "reduceOnly": true, "timeInForce": "GTC"}
+2025-11-27T21:48:12 | INFO | action=oco_take_profit details={"tp_resp": {"simulated": true, "payload": {"symbol": "BTCUSDT", "side": "SELL", "type": "LIMIT", "quantity": 0.001, "price": 65000.0, "stopPrice": null, "reduceOnly": true, "timeInForce": "GTC"}, "timestamp": "2025-11-27T16:18:12Z"}}
+2025-11-27T21:48:12 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "SELL", "type": "STOP_MARKET", "quantity": 0.001, "price": null, "stopPrice": 58000.0, "reduceOnly": true}
+2025-11-27T21:48:12 | INFO | action=oco_stop_loss details={"sl_resp": {"simulated": true, "payload": {"symbol": "BTCUSDT", "side": "SELL", "type": "STOP_MARKET", "quantity": 0.001, "price": null, "stopPrice": 58000.0, "reduceOnly": true}, "timestamp": "2025-11-27T16:18:12Z"}}
+2025-11-27T21:53:45 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:53:45 | INFO | action=twap_start details={"symbol": "BTCUSDT", "side": "BUY", "total_qty": 0.01, "chunks": 5, "interval": 60}
+2025-11-27T21:53:45 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.002, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:53:45 | INFO | action=twap_step details={"step": 1, "resp": {"simulated": true, "payload": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.002, "price": null, "stopPrice": null, "reduceOnly": false}, "timestamp": "2025-11-27T16:23:45Z"}}
+2025-11-27T21:54:45 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.002, "price": null, "stopPrice": null, "reduceOnly": false}
+2025-11-27T21:54:45 | INFO | action=twap_step details={"step": 2, "resp": {"simulated": true, "payload": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.002, "price": null, "stopPrice": null, "reduceOnly": false}, "timestamp": "2025-11-27T16:24:45Z"}}
+2025-11-27T21:58:42 | INFO | action=create_binance_client details={"mode": "dry-run"}
+2025-11-27T21:58:42 | INFO | action=grid_plan details={"symbol": "BTCUSDT", "grids": [{"buy_price": 58000.0, "sell_price": 58400.0}, {"buy_price": 58400.0, "sell_price": 58800.0}, {"buy_price": 58800.0, "sell_price": 59200.0}, {"buy_price": 59200.0, "sell_price": 59600.0}, {"buy_price": 59600.0, "sell_price": 60000.0}, {"buy_price": 60000.0, "sell_price": 60400.0}, {"buy_price": 60400.0, "sell_price": 60800.0}, {"buy_price": 60800.0, "sell_price": 61200.0}, {"buy_price": 61200.0, "sell_price": 61600.0}, {"buy_price": 61600.0, "sell_price": 62000.0}], "qty": 0.001}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 58000.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 58000.0, "sell_price": 58400.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 58400.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 58400.0, "sell_price": 58800.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 58800.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 58800.0, "sell_price": 59200.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 59200.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 59200.0, "sell_price": 59600.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 59600.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 59600.0, "sell_price": 60000.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 60000.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 60000.0, "sell_price": 60400.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 60400.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 60400.0, "sell_price": 60800.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 60800.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 60800.0, "sell_price": 61200.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 61200.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 61200.0, "sell_price": 61600.0}}
+2025-11-27T21:58:42 | INFO | action=place_order_simulation details={"mode": "dry-run", "symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": 0.001, "price": 61600.0, "stopPrice": null, "reduceOnly": false, "timeInForce": "GTC"}
+2025-11-27T21:58:42 | INFO | action=grid_place_buy details={"grid": {"buy_price": 61600.0, "sell_price": 62000.0}}
