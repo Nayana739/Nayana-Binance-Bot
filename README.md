@@ -107,8 +107,6 @@ python src/advanced/oco.py BTCUSDT BUY 0.001 65000 58000
 python src/advanced/twap.py BTCUSDT BUY 0.01 5 60
 ```
 
----
-
 ##  Logging
 
 All logs are saved automatically to:
@@ -124,8 +122,6 @@ Including:
 * Dry-run simulations
 * Errors
 * Strategy steps (Grid, OCO, TWAP)
-
----
 
 ##  Utilities (utils.py)
 
@@ -154,5 +150,3 @@ This keeps the entire project modular and reusable.
 ##  License
 
 This project is for educational and assignment purposes.
-
-## Screenshots
